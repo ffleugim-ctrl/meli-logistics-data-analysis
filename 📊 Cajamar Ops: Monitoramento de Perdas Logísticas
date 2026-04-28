@@ -1,0 +1,37 @@
+📊 Cajamar Ops: Monitoramento de Perdas Logísticas
+📑 Sumário
+1. Visão Geral
+Este projeto foi desenvolvido para resolver a falta de visibilidade centralizada sobre as perdas financeiras na operação logística de Cajamar. O dashboard transforma dados brutos de ocorrências em indicadores estratégicos, permitindo identificar onde o prejuízo acontece (setores), por que acontece (motivos) e quais parceiros (sellers) são mais afetados.
+
+2. Stack Tecnológica
+SQL Server: Extração, limpeza e modelagem dos dados brutos.
+
+Power BI: Criação do modelo de dados, medidas DAX e visualização.
+
+Design (UI/UX): Aplicação de conceitos clean design e identidade visual institucional.
+
+3. Engenharia de Dados (ETL)
+A base de dados passou por um processo rigoroso de tratamento:
+
+Limpeza: Padronização de strings (Setores e Ocorrências) via SQL.
+
+Regras de Negócio: Conversão de valores de BRL para USD para visão executiva.
+
+Modelagem: Criação de relacionamentos para permitir filtros dinâmicos por impacto de "Rezago".
+
+4. Destaques do Dashboard
+KPI Principal: Card de destaque com o prejuízo total em dólar.
+
+Análise por Setor: Gráfico de barras identificando os gargalos operacionais (ex: Putaway).
+
+Causa Raiz: Gráfico de rosca detalhando os tipos de incidentes (ex: Caixa Violada).
+
+Ranking de Sellers: Tabela dinâmica com os vendedores que mais sofreram perdas.
+
+5. Insights Gerenciais
+Identificação de que a maior parte do prejuízo está concentrada em Caixas Violadas, sugerindo a necessidade de reforço na auditoria.
+
+Mapeamento de setores críticos que necessitam de revisão de processos para reduzir o churn de vendedores.
+
+6. Conclusão
+Este projeto demonstra a capacidade de unir RH, Logística e Tecnologia, saindo da operação manual para uma gestão baseada em dados (Data-Driven), focada na eficiência e redução de custos operacionais.
